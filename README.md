@@ -25,7 +25,7 @@ By deploying the network module, we can have the ability to create the VNet and 
 
 Architecture diagram of the Azure cloud network module implemented
 
-![Image text](https://github.com/magnetoxx24/infrastructure_as_code_poc/blob/sandbox/terraform/cloud/azure/diagram/Diagram%20Module%20Network%20Cloud%20Azure%20Magnetoxx24-Network.jpg)
+![Image text](https://github.com/magnetoxx24/infrastructure_as_code_terraform/blob/master/cloud/azure/diagram/Diagram%20Module%20Network%20Cloud%20Azure%20Magnetoxx24-Network.jpg)
 
 ## To deploy the resources using the network module, you can use the following commands to be able to deploy by type of environment
 
