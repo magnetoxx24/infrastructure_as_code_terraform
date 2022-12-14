@@ -195,7 +195,6 @@ Changes to Outputs:
   + virtual_network_address_prefix       = "10.120.0.0/16"
   + virtual_network_name                 = "M24-AZ-VNET-EASTUS2-DEV-001"
 ```
-───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
 Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply" now.
 
@@ -368,7 +367,6 @@ Changes to Outputs:
   + virtual_network_address_prefix       = "10.121.0.0/16"
   + virtual_network_name                 = "M24-AZ-VNET-EASTUS2-STAGING-001"
 ```
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
 Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply" now.
 
@@ -538,6 +536,5 @@ Changes to Outputs:
   + virtual_network_address_prefix       = "10.122.0.0/16"
   + virtual_network_name                 = "M24-AZ-VNET-EASTUS2-PROD-001"
 ```
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
 Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply" now.
