@@ -602,3 +602,6 @@ Tip
   New: Share your test results in the Snyk Web UI with the option --report
 ```
 
+## Dashboard Report Snyk
+
+![Image text](https://github.com/magnetoxx24/infrastructure_as_code_terraform/blob/sandbox/cloud/azure/magnetoxx24/docs/report-scan-iac-snyk.png)
