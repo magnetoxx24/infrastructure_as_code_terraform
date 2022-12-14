@@ -8,6 +8,6 @@ resource "azurerm_network_ddos_protection_plan" "ddospp" {
   tags = var.tags
 
   lifecycle {
-    prevent_destroy = false
+    prevent_destroy = true
   }
 }

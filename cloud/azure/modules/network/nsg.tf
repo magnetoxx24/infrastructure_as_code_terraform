@@ -8,7 +8,7 @@ resource "azurerm_network_security_group" "nsg" {
   tags = var.tags
 
   lifecycle {
-    prevent_destroy = false
+    prevent_destroy = true
   }
 
 }

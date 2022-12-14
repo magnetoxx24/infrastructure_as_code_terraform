@@ -10,6 +10,6 @@ resource "azurerm_virtual_network_peering" "peering" {
   use_remote_gateways          = var.use_remote_gateways
 
   lifecycle {
-    prevent_destroy = false
+    prevent_destroy = true
   }
 }
