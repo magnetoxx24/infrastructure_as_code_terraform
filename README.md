@@ -538,3 +538,67 @@ Changes to Outputs:
 ```
 
 Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply" now.
+
+
+
+# IaC Security 
+
+As part of good practices is to implement infrastructure as code is to be able to scan the resources that we are going to deploy, for this project we have used the Snyk tool.
+
+
+```
+magnetoxx24@bastion:~/infrastructure_as_code_terraform/cloud/azure$ snyk iac test modules/
+
+Snyk Infrastructure as Code
+
+✔ Test completed.
+
+Issues
+  No vulnerable paths were found!
+
+-------------------------------------------------------
+
+Test Summary
+
+  Organization: magnetoxx24-r9i
+  Project name: azure
+
+✔ Files without issues: 12
+✗ Files with issues: 0
+  Ignored issues: 0
+  Total issues: 0 [ 0 critical, 0 high, 0 medium, 0 low ]
+
+-------------------------------------------------------
+
+Tip
+
+  New: Share your test results in the Snyk Web UI with the option --report
+
+magnetoxx24@bastion:~/infrastructure_as_code_terraform/cloud/azure$ snyk iac test magnetoxx24/
+
+Snyk Infrastructure as Code
+
+✔ Test completed.
+
+Issues
+  No vulnerable paths were found!
+
+-------------------------------------------------------
+
+Test Summary
+
+  Organization: magnetoxx24-r9i
+  Project name: azure
+
+✔ Files without issues: 4
+✗ Files with issues: 0
+  Ignored issues: 0
+  Total issues: 0 [ 0 critical, 0 high, 0 medium, 0 low ]
+
+-------------------------------------------------------
+
+Tip
+
+  New: Share your test results in the Snyk Web UI with the option --report
+```
+
