@@ -1,15 +1,3 @@
-// CREATION OF RESOURCE GROUP AND DEFINITION OF LOCATION
-resource "azurerm_resource_group" "rg" {
-  name     = var.resource_group_name
-  location = var.location
-
-  tags = var.tags
-
-  lifecycle {
-    prevent_destroy = true
-  }
-}
-
 // CALL NETWORK MODULE 
 module "network" {
   source = "../../../modules/network/"

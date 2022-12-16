@@ -1,9 +1,9 @@
 // OUTPUT OF REQUIRED INFORMATION
 output "resource_group" {
-  value = azurerm_resource_group.rg.name
+  value = var.resource_group_name
 }
 output "location" {
-  value = azurerm_resource_group.rg.location
+  value = var.location
 }
 
 // outputs NSG 
